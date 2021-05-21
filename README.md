@@ -1,12 +1,11 @@
 # Dasha Map
 
 * **Objective**
-    * To create a product which ...
+    * To create a HashMap named `DashaMap` without using any class which extends, implements, or uses the built-in `java.util.Collection` interface.
 * **Purpose**
     * To gain familiarity the Data Structures and `Collection` framework.
 * **Description**
-    * Create a HashMap (DashaMap) without using any class which extends or implements the built-in `java.util.Collection` interface.
-    * Create a DashaMap which uses a `LinkedList` of `Node` of `KeyValue`s.
+    * Create a `DashaMap` has a composite `MyLinkedList` of `MyNode` of `MyPair`s.
 
 
 
