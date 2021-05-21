@@ -5,13 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a192632b-eb01-46ee-9262-e4329abbb71e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README-Sample.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/zipcodewilmington/DashaMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/zipcodewilmington/HashMapX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/zipcodewilmington/DashaMapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/zipcodewilmington/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/zipcodewilmington/sample/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/zipcodewilmington/PersonInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/zipcodewilmington/sample/PersonInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/zipcodewilmington/ZipcodeRocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/zipcodewilmington/sample/ZipcodeRocks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/zipcodewilmington/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/zipcodewilmington/sample/PersonTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />

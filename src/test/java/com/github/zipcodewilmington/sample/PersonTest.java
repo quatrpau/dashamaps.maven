@@ -1,5 +1,7 @@
-package com.github.zipcodewilmington;
+package com.github.zipcodewilmington.sample;
 
+import com.github.zipcodewilmington.sample.Person;
+import com.github.zipcodewilmington.sample.PersonInterface;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.params.ParameterizedTest;
