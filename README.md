@@ -1,11 +1,17 @@
-# Dash-a-Map
+# Dasha Map
 
-Make a hash map (dashamap), your future self will be grateful after that *fateful* interview
+* **Objective**
+    * To create a product which ...
+* **Purpose**
+    * To gain familiarity the Data Structures and `Collection` framework.
+* **Description**
+    * Create a HashMap (DashaMap) without using any class which extends or implements the built-in `java.util.Collection` interface.
+    * Create a DashaMap which uses a `LinkedList` of `Node` of `KeyValue`s.
 
-Build a hash-map. The idea is to have an array of nodes, each node them having a linked-list behind it.
+
+
 
 ![Image of Data Structure for HashMap](./DataStructureHashMap.png)
-Why?
 
 Well, your first `hashing function` is this:
 
@@ -18,7 +24,7 @@ private String HashFunctionOne(String input) {
 }
 ```
 And since you have a list of words, some of which have the same first letter (character),
-you will have *hash collisions* when you insert a second word in the same bucket. That's why you have a 
+you will have *hash collisions* when you insert a second word in the same bucket. That's why you have a
 linked list which is attached to the end of the list when you insert/set a word.
 
 And your second hashing function is:
@@ -43,10 +49,10 @@ private String HashFunctionThree(String input) {
 }
 ```
 
-You'll be writing three different classes, one for each hashing function. Call them `DashaMapOne, 
+You'll be writing three different classes, one for each hashing function. Call them `DashaMapOne,
 DashaMapTwo, & DashaMapThree`.
 
-Build a test harness that can read in the word list and insert each word into each of the 
+Build a test harness that can read in the word list and insert each word into each of the
 three hash-maps.
 
 Each of the classes should implement this interface:
@@ -79,7 +85,7 @@ Node:
 the hash-array needs to get initialized to 26 long of Node, with each value being 'a'..'z'.
 
 read in the list of words in `wordlist.txt`. Each word is on it's own line, with a value,
-and as each word is read, insert it into each of the three hash-maps, using the word as the key, 
+and as each word is read, insert it into each of the three hash-maps, using the word as the key,
 and integer value as the value.
 
 When you set a word/value pair: (this is pseudocode)
@@ -95,7 +101,7 @@ When you set a word/value pair: (this is pseudocode)
 `append-to` is a method that attaches the created node with the word as the key, the integer as the value,
 at the end of the linked list attached to the hash-array head list-pointer.
 
-When you get a word/value pair: 
+When you get a word/value pair:
 
 ```
 - value get(key) {
@@ -110,7 +116,7 @@ When you get a word/value pair:
 
 and the Hard One is `delete(key-word)`
 
-oy. that's enough. 
+oy. that's enough.
 
 #### Nota Bene:
 If you can figure out a way to make your implmentation GENERIC, you get 2.75million extra points. That's enough to get the level 3 prize, or a very old, tattered, online copy of [Think Data Structures in Java](https://open.umn.edu/opentextbooks/textbooks/think-data-structures-algorithms-and-information-retrieval-in-java)
