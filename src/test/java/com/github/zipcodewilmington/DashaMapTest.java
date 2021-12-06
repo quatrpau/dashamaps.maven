@@ -1,6 +1,7 @@
 package com.github.zipcodewilmington;
 
 import org.junit.Before;
+import org.junit.Test;
 
 /**
  * @author xtofer
@@ -9,6 +10,9 @@ import org.junit.Before;
  */
 public class DashaMapTest {
     private HashMapX dm;
+    private HashMapX dm2;
+    private HashMapX dm3;
+
     @Before
     public void setUp(){
         dm = new DashaMap();
